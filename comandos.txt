@@ -18,3 +18,4 @@ git pull
 
 -> Clona a pasta do github para a pasta já existente
 git clone
+
