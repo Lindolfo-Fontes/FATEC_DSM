@@ -1,0 +1,20 @@
+-> Inicializa um repositório git (utilizado apenas uma vez)
+git init
+
+-> Verificar o status do repositório
+git status
+
+-> Adicionar os novos arquivos no git
+git add .
+
+-> Salva uma nova versão do arquivo (-m se refere ao comentário colocado entre aspas)
+git commit -m "Porque estou salvando?"
+
+-> Envia informações do commit do computador para o Github
+git push
+
+-> Baixa a atualização dos arquivos para uma pasta já existente
+git pull
+
+-> Clona a pasta do github para a pasta já existente
+git clone
