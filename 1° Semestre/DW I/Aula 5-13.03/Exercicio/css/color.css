@@ -1,0 +1,11 @@
+/*No css utiliza-se "/"*" para abrir e "*"/" para fechar comentarios*/
+
+/*1°Passo - O Root cria e ajusta a formatação base de variaveis utilizadas no documento*/
+:root {
+    --bg-color: #fff;
+    --text-color: #000;
+    --border-color: #000;
+    --nav-bg: #daddfa;
+    --footer-bg: #daddfa;  
+    --post-bg-color: #daddfa;    
+}

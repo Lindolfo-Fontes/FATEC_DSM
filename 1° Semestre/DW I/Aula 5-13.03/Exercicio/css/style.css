@@ -1,0 +1,57 @@
+/*Abre-se a chave após o nome de cada item que se deseja aplicar um estilo, quando for utilizar uma class antes utiliza-se o "."*/
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);    
+}
+
+.nav {
+    background-color: var(--nav-bg);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    align-content: space-around;        
+}
+.nav .logo {
+    background-color: none;
+    font-weight: 900;
+    font-size: 1.5rem;    
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;    
+}
+
+.post {
+    background-color: var(--post-bg-color);
+    padding: 1rem;
+    border-radius: 8px;
+    border-color: var(--border-color);
+    width: 300px;    
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
