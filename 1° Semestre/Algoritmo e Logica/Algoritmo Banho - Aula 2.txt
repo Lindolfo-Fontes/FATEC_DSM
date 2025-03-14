@@ -1,0 +1,16 @@
+1-Checagem se a toalha e demais itens de higiene estão no banheiro
+2-se não tiver ir as compras / se tiver continuar
+3-tirar a roupa
+4-abrir o registro do chuveiro
+5-regulagem da temperatura da água
+6-ducha inicial
+7-limpeza com sabonete e bucha no corpo todo
+8-ducha para retirar o sabão
+9-usar shampoo para lavar o cabelo
+10-ducha para retirar o shampoo
+11-fechar o registro do chuveiro
+12-puxar agua em excesso dentro do box
+13-secar o corpo todo e cabelo com a toalha
+14-colocar roupas
+15-colocar a toalha para secar
+
