@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms com JS</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Lista de Tarefas</h1>
+        <!--Utilizamos a tag form para delimitar os formulários.
+        O action é para onde vão os dados do preenchimento desse formulário.
+        Utilizamos o "#" para tratar dados no mesmo arquivo.
+        Placeholder auxiliar a escrita dentro da barra de digitação.
+        Required obriga o usuário a fazer a digitação.-->
+        <form action="#" id="formTarefa">
+            <input type="text" id="inputTarefa" placeholder="Digite a tarefa..." required>
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+
+        <ul id="listaTarefas"></ul>
+
+        <br>
+        <a href="calculadora.html">Ir para Calculadora</a>
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

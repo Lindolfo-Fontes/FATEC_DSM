@@ -1,0 +1,56 @@
+body{
+    margin: 20px;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+/*o gap define o espaçamento dos elementos dentro do formulário*/
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/*colocar o seletor de propriedades entre colchetes faz que vc filtre pelos atributos do elemento*/
+input[type="text"]{
+    /*O flex com valor 1 faz o input crescer e se adequar ao espaço disponível*/
+    flex: 1;
+    padding: 8px;
+}
+
+button{
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.remover{
+    margin-left: 10px;
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.remover:hover{
+    opacity: 0.8;
+}
